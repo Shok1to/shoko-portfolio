@@ -240,7 +240,8 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>E-commerce Platform</CardTitle>
                     <CardDescription>
-                      A fully responsive online store with payment integration
+                      Backend API for managing products, categories, and
+                      inventory
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -289,7 +290,8 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>Employee Tracker</CardTitle>
                     <CardDescription>
-                      A productivity tool for organizing tasks and projects
+                      Command-line tool to view and manage employees, roles, and
+                      departments in a company database
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -338,7 +340,7 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>Weather Forecasts</CardTitle>
                     <CardDescription>
-                      Real-time weather information with interactive maps
+                      Real-time weather lookup by city with API integration
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -385,7 +387,7 @@ export default function Home() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>Blog Platform</CardTitle>
+                    <CardTitle>StarSigns</CardTitle>
                     <CardDescription>
                       A content management system for bloggers
                     </CardDescription>
@@ -410,7 +412,7 @@ export default function Home() {
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" asChild>
                       <Link
-                        href="https://github.com/yourusername/project4"
+                        href="https://kemcclen.github.io/StarSigns/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -420,7 +422,7 @@ export default function Home() {
                     </Button>
                     <Button asChild>
                       <Link
-                        href="https://project4.example.com"
+                        href="https://github.com/kemcclen/StarSigns"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
