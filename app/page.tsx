@@ -388,8 +388,7 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>StarSigns</CardTitle>
                     <CardDescription>
-                      Interactive app that delivers zodiac and planetary info
-                      using external APIs
+                      Zodiac and planet info app powered by external APIs
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
