@@ -27,7 +27,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex gap-6 md:gap-10">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="font-bold inline-block">Developer</span>
+              <span className="font-bold inline-block">Shoko Takahashi</span>
             </Link>
           </div>
           <nav className="flex gap-6">
@@ -67,8 +67,8 @@ export default function Home() {
                   Hi, I'm <span className="text-primary">Shoko</span>
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  A passionate web developer specializing in creating beautiful,
-                  functional, and user-friendly websites.
+                  Web developer focused on building beautiful, user-friendly,
+                  and responsive websites.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -135,7 +135,8 @@ export default function Home() {
                   and visually appealing. I’ve completed the Full Stack Web
                   Development Boot Camp at the University of Toronto, where I
                   honed my skills and stayed up-to-date with the latest trends
-                  in web development. Let’s build something awesome together!
+                  in web development. Excited to contribute to meaningful
+                  projects.
                 </p>
               </div>
               <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">

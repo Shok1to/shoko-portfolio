@@ -40,7 +40,7 @@ export default function ResumeButton({
       asChild
       onClick={handleClick}
     >
-      <Link href="/ShokoT_Resume.pdf" download>
+      <Link href="/resume.pdf" download>
         <Download className="h-4 w-4" />
         Download Resume
       </Link>
