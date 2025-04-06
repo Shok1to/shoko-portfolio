@@ -290,8 +290,7 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>Employee Tracker</CardTitle>
                     <CardDescription>
-                      Command-line tool to view and manage employees, roles, and
-                      departments in a company database
+                      CLI app to manage employees, roles, and departments
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -389,13 +388,14 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>StarSigns</CardTitle>
                     <CardDescription>
-                      A content management system for bloggers
+                      Interactive app that delivers zodiac and planetary info
+                      using external APIs
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="aspect-video overflow-hidden rounded-lg">
                       <Image
-                        src="/placeholder.svg?height=225&width=400"
+                        src="/project4.png?height=225&width=400"
                         alt="Blog Platform"
                         width={400}
                         height={225}
@@ -403,10 +403,11 @@ export default function Home() {
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge>Node.js</Badge>
-                      <Badge>Express</Badge>
-                      <Badge>MongoDB</Badge>
-                      <Badge>EJS</Badge>
+                      <Badge>JavaScript</Badge>
+                      <Badge>HTML5</Badge>
+                      <Badge>CSS3</Badge>
+                      <Badge>API Integration</Badge>
+                      <Badge>Collaborative Development</Badge>
                     </div>
                   </CardContent>
                   <CardFooter className="flex justify-between">
