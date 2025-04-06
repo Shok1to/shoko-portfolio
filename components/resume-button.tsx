@@ -8,10 +8,20 @@ import { useToast } from "@/hooks/use-toast"
 interface ResumeButtonProps {
   className?: string
   size?: "default" | "sm" | "lg" | "icon"
-  variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link"
+  variant?:
+    | "default"
+    | "destructive"
+    | "outline"
+    | "secondary"
+    | "ghost"
+    | "link"
 }
 
-export default function ResumeButton({ className, size = "default", variant = "default" }: ResumeButtonProps) {
+export default function ResumeButton({
+  className,
+  size = "default",
+  variant = "default",
+}: ResumeButtonProps) {
   const { toast } = useToast()
 
   const handleClick = () => {
@@ -23,12 +33,17 @@ export default function ResumeButton({ className, size = "default", variant = "d
   }
 
   return (
-    <Button size={size} variant={variant} className={`gap-2 ${className}`} asChild onClick={handleClick}>
-      <Link href="/sample-resume.pdf" download>
+    <Button
+      size={size}
+      variant={variant}
+      className={`gap-2 ${className}`}
+      asChild
+      onClick={handleClick}
+    >
+      <Link href="/ShokoT_Resume.pdf" download>
         <Download className="h-4 w-4" />
         Download Resume
       </Link>
     </Button>
   )
 }
-
