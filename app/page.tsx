@@ -608,7 +608,7 @@ export default function Home() {
                     <div className="flex items-center gap-3">
                       <FileText className="h-5 w-5 text-primary" />
                       <a
-                        href="/resume.pdf"
+                        href="/ShokoT_Resume.pdf"
                         download
                         className="text-sm hover:underline"
                       >
