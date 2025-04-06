@@ -464,7 +464,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>JavaScript (ES6+)</span>
+                        <span>JavaScript</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
@@ -509,7 +509,15 @@ export default function Home() {
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>RESTful APIs</span>
+                        <span>NoSQL</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="h-2 w-2 rounded-full bg-primary"></div>
+                        <span>Sequelize</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="h-2 w-2 rounded-full bg-primary"></div>
+                        <span>MongoDB</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
@@ -530,7 +538,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Vercel</span>
+                        <span>Vercel(CI/CD)</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full bg-primary"></div>
@@ -608,7 +616,7 @@ export default function Home() {
                     <div className="flex items-center gap-3">
                       <FileText className="h-5 w-5 text-primary" />
                       <a
-                        href="/ShokoT_Resume.pdf"
+                        href="/resume.pdf"
                         download
                         className="text-sm hover:underline"
                       >
