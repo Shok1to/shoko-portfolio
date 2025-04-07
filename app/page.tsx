@@ -20,6 +20,14 @@ import {
 } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
+import { Menu } from "lucide-react"
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "@/components/ui/dropdown-menu"
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -36,12 +44,36 @@ export default function Home() {
               {/* optional if you want a logo link */}
             </div>
           </div>
-          <nav className="flex flex-wrap justify-end gap-4 text-sm">
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex gap-6 text-sm">
             <Link href="#about">About</Link>
             <Link href="#projects">Projects</Link>
             <Link href="#skills">Skills</Link>
             <Link href="#contact">Contact</Link>
           </nav>
+
+          {/* Mobile Nav Dropdown */}
+          <div className="md:hidden">
+            <DropdownMenu>
+              <DropdownMenuTrigger className="p-2 rounded-md border border-gray-600">
+                <Menu className="h-5 w-5" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="mt-2">
+                <DropdownMenuItem>
+                  <Link href="#about">About</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#projects">Projects</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#skills">Skills</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#contact">Contact</Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
         </div>
       </header>
       <main className="flex-1">
