@@ -493,40 +493,16 @@ export default function Home() {
                     <CardTitle>Backend</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <ul className="grid gap-2">
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Node.js</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Express.js</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>RESTful APIs</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>MySQL</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>NoSQL</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Sequelize</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>MongoDB</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>GraphQL</span>
-                      </li>
-                    </ul>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge>Node.js</Badge>
+                      <Badge>Express.js</Badge>
+                      <Badge>RESTful APIs</Badge>
+                      <Badge>MySQL</Badge>
+                      <Badge>NoSQL</Badge>
+                      <Badge>Sequelize</Badge>
+                      <Badge>MongoDB</Badge>
+                      <Badge>GraphQL</Badge>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card>
