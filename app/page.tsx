@@ -27,7 +27,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex gap-6 md:gap-10">
             <div className="flex items-center space-x-2">
-              <span className="font-bold text-base sm:text-xl truncate max-w-[140px] sm:max-w-none">
+              <span className="font-bold text-base sm:text-xl break-words max-w-[180px]">
                 Shoko Takahashi
               </span>
               <Link href="/" className="sr-only">
