@@ -510,32 +510,14 @@ export default function Home() {
                     <CardTitle>Tools & Others</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <ul className="grid gap-2">
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Git & GitHub</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Vercel(CI/CD)</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>API Testing Tools (Insomnia)</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Google Forms API</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Email Notifications</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>VS Code</span>
-                      </li>
-                    </ul>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge>Git & GitHub</Badge>
+                      <Badge>Vercel (CI/CD)</Badge>
+                      <Badge>Insomnia</Badge>
+                      <Badge>Google Forms API</Badge>
+                      <Badge>Email Notifications</Badge>
+                      <Badge>VS Code</Badge>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
