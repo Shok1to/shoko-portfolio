@@ -26,11 +26,15 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex gap-6 md:gap-10">
-            <Link href="/" className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2">
               <span className="font-bold text-base sm:text-xl truncate max-w-[140px] sm:max-w-none">
                 Shoko Takahashi
               </span>
-            </Link>
+              <Link href="/" className="sr-only">
+                Home
+              </Link>{" "}
+              {/* optional if you want a logo link */}
+            </div>
           </div>
           <nav className="flex gap-6">
             <Link
