@@ -36,31 +36,11 @@ export default function Home() {
               {/* optional if you want a logo link */}
             </div>
           </div>
-          <nav className="flex gap-6">
-            <Link
-              href="#about"
-              className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              About
-            </Link>
-            <Link
-              href="#projects"
-              className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              Projects
-            </Link>
-            <Link
-              href="#skills"
-              className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              Skills
-            </Link>
-            <Link
-              href="#contact"
-              className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60"
-            >
-              Contact
-            </Link>
+          <nav className="flex flex-wrap justify-end gap-4 text-sm">
+            <Link href="#about">About</Link>
+            <Link href="#projects">Projects</Link>
+            <Link href="#skills">Skills</Link>
+            <Link href="#contact">Contact</Link>
           </nav>
         </div>
       </header>
