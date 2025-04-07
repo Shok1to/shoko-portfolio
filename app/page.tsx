@@ -477,32 +477,15 @@ export default function Home() {
                     <CardTitle>Frontend</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <ul className="grid gap-2">
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>HTML5 & CSS3</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>JavaScript</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>TypeScript</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>React.js</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Next.js</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary"></div>
-                        <span>Tailwind CSS</span>
-                      </li>
-                    </ul>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge>HTML5</Badge>
+                      <Badge>CSS3</Badge>
+                      <Badge>JavaScript</Badge>
+                      <Badge>TypeScript</Badge>
+                      <Badge>React</Badge>
+                      <Badge>Next.js</Badge>
+                      <Badge>Tailwind CSS</Badge>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card>
