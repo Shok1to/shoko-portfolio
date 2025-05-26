@@ -406,8 +406,7 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>Coffee training website</CardTitle>
                     <CardDescription>
-                      A modern coffee training site built with Next.js, Tailwind
-                      CSS, and TypeScript.
+                      A modern coffee training site built with Next.js
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
