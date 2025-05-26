@@ -406,7 +406,8 @@ export default function Home() {
                   <CardHeader>
                     <CardTitle>Coffee training website</CardTitle>
                     <CardDescription>
-                      Zodiac and planet info app powered by external APIs
+                      A modern coffee training site built with Next.js, Tailwind
+                      CSS, and TypeScript.
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -420,17 +421,17 @@ export default function Home() {
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge>JavaScript</Badge>
-                      <Badge>HTML5</Badge>
-                      <Badge>CSS3</Badge>
-                      <Badge>API Integration</Badge>
-                      <Badge>Collaborative Development</Badge>
+                      <Badge>Next.js</Badge>
+                      <Badge>TypeScript</Badge>
+                      <Badge>Tailwind CSS</Badge>
+                      <Badge>Responsive Design</Badge>
+                      <Badge>Vercel</Badge>
                     </div>
                   </CardContent>
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" asChild>
                       <Link
-                        href="https://kemcclen.github.io/StarSigns/"
+                        href="https://github.com/Shok1to/coffee-training"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -440,7 +441,7 @@ export default function Home() {
                     </Button>
                     <Button asChild>
                       <Link
-                        href="https://github.com/kemcclen/StarSigns"
+                        href="https://www.shokolatte.ca/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
