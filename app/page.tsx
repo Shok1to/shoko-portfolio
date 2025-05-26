@@ -404,7 +404,7 @@ export default function Home() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>StarSigns</CardTitle>
+                    <CardTitle>Coffee training website</CardTitle>
                     <CardDescription>
                       Zodiac and planet info app powered by external APIs
                     </CardDescription>
