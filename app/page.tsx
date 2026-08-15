@@ -98,7 +98,7 @@ export default function Home() {
                   <Link href="#projects">View My Work</Link>
                 </Button>
                 <Button variant="secondary" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/ShokoTakahashi_Resume.pdf" download>
                     <FileText className="mr-2 h-4 w-4" />
                     Download Resume
                   </a>
@@ -584,7 +584,7 @@ export default function Home() {
                     <div className="flex items-center gap-3">
                       <FileText className="h-5 w-5 text-primary" />
                       <a
-                        href="/resume.pdf"
+                        href="/ShokoTakahashi_Resume.pdf"
                         download
                         className="text-sm hover:underline"
                       >
