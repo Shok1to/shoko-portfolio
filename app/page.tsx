@@ -269,7 +269,7 @@ export default function Home() {
                         alt="E-commerce Website"
                         width={400}
                         height={225}
-                        className="object-cover"
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
@@ -318,7 +318,7 @@ export default function Home() {
                         alt="Task Management App"
                         width={400}
                         height={225}
-                        className="object-cover"
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
@@ -367,7 +367,7 @@ export default function Home() {
                         alt="Ascend Aegis Web"
                         width={400}
                         height={225}
-                        className="object-cover"
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
@@ -416,7 +416,7 @@ export default function Home() {
                         alt="Blog Platform"
                         width={400}
                         height={225}
-                        className="object-cover"
+                        className="object-cover w-full h-full"
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
