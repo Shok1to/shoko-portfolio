@@ -355,34 +355,34 @@ export default function Home() {
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>Weather Forecasts</CardTitle>
+                    <CardTitle>Ascend Aegis Web Application</CardTitle>
                     <CardDescription>
-                      Real-time weather lookup by city with API integration
+                      Full-stack client web app rebuilt with Next.js
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="aspect-video overflow-hidden rounded-lg">
                       <Image
                         src="/project3.png?height=225&width=400"
-                        alt="Weather Dashboard"
+                        alt="Ascend Aegis Web"
                         width={400}
                         height={225}
                         className="object-cover"
                       />
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge>HTML5</Badge>
-                      <Badge>CSS3</Badge>
-                      <Badge>JavaScript</Badge>
-                      <Badge>OpenWeather API</Badge>
-                      <Badge>Fetch API</Badge>
-                      <Badge>DOM Manipulation</Badge>
+                      <Badge>Next.js</Badge>
+                      <Badge>TypeScript</Badge>
+                      <Badge>PostgreSQL</Badge>
+                      <Badge>NextAuth.js</Badge>
+                      <Badge>Tailwind CSS</Badge>
+                      <Badge>Vercel</Badge>
                     </div>
                   </CardContent>
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" asChild>
                       <Link
-                        href="https://github.com/Shok1to/weather-forecasts"
+                        href="https://github.com/Shok1to/ascendaegis-website"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -392,7 +392,7 @@ export default function Home() {
                     </Button>
                     <Button asChild>
                       <Link
-                        href="https://shok1to.github.io/weather-forecasts/"
+                        href="https://ascendaegis.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
