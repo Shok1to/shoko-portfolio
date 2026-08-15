@@ -254,105 +254,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>E-commerce Platform</CardTitle>
-                    <CardDescription>
-                      Backend API for managing products, categories, and
-                      inventory
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="aspect-video overflow-hidden rounded-lg">
-                      <Image
-                        src="/project1.png?height=225&width=400"
-                        alt="E-commerce Website"
-                        width={400}
-                        height={225}
-                        className="object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge>Node.js</Badge>
-                      <Badge>Express.js</Badge>
-                      <Badge>Sequelize</Badge>
-                      <Badge>MySQL</Badge>
-                      <Badge>RESTful API</Badge>
-                      <Badge>Insomnia</Badge>
-                    </div>
-                  </CardContent>
-                  <CardFooter className="flex justify-between">
-                    <Button variant="outline" asChild>
-                      <Link
-                        href="https://github.com/Shok1to/E-commerce"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="mr-2 h-4 w-4" />
-                        Code
-                      </Link>
-                    </Button>
-                    <Button asChild>
-                      <Link
-                        href="https://drive.google.com/file/d/1EnwDWaQNkYyFAJbL0f5xA-krUPKYLbdZ/view"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Watch Demo
-                      </Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Employee Tracker</CardTitle>
-                    <CardDescription>
-                      CLI app to manage employees, roles, and departments
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="aspect-video overflow-hidden rounded-lg">
-                      <Image
-                        src="/project2.png?height=225&width=400"
-                        alt="Task Management App"
-                        width={400}
-                        height={225}
-                        className="object-contain w-full h-full"
-                      />
-                    </div>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge>Node.js</Badge>
-                      <Badge>Inquirer.js</Badge>
-                      <Badge>MySQL</Badge>
-                      <Badge>SQL</Badge>
-                      <Badge>Command Line App</Badge>
-                      <Badge>Insomnia</Badge>
-                    </div>
-                  </CardContent>
-                  <CardFooter className="flex justify-between">
-                    <Button variant="outline" asChild>
-                      <Link
-                        href="https://github.com/Shok1to/Employee-Tracker"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="mr-2 h-4 w-4" />
-                        Code
-                      </Link>
-                    </Button>
-                    <Button asChild>
-                      <Link
-                        href="https://drive.google.com/file/d/19ZzsULObB6_Xu2BvuyIwIo8zRsbLjMXR/view"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Watch Demo
-                      </Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
+                {/* 1. Ascend Aegis Web Application (Top Left) */}
                 <Card>
                   <CardHeader>
                     <CardTitle>Ascend Aegis Web Application</CardTitle>
@@ -402,6 +304,8 @@ export default function Home() {
                     </Button>
                   </CardFooter>
                 </Card>
+
+                {/* 2. Coffee training website (Top Right) */}
                 <Card>
                   <CardHeader>
                     <CardTitle>Coffee training website</CardTitle>
@@ -446,6 +350,109 @@ export default function Home() {
                       >
                         <ExternalLink className="mr-2 h-4 w-4" />
                         Live Demo
+                      </Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+
+                {/* 3. E-commerce Platform (Bottom Left) */}
+                <Card>
+                  <CardHeader>
+                    <CardTitle>E-commerce Platform</CardTitle>
+                    <CardDescription>
+                      Backend API for managing products, categories, and
+                      inventory
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="aspect-video overflow-hidden rounded-lg">
+                      <Image
+                        src="/project1.png?height=225&width=400"
+                        alt="E-commerce Website"
+                        width={400}
+                        height={225}
+                        className="object-contain w-full h-full"
+                      />
+                    </div>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge>Node.js</Badge>
+                      <Badge>Express.js</Badge>
+                      <Badge>Sequelize</Badge>
+                      <Badge>MySQL</Badge>
+                      <Badge>RESTful API</Badge>
+                      <Badge>Insomnia</Badge>
+                    </div>
+                  </CardContent>
+                  <CardFooter className="flex justify-between">
+                    <Button variant="outline" asChild>
+                      <Link
+                        href="https://github.com/Shok1to/E-commerce"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </Link>
+                    </Button>
+                    <Button asChild>
+                      <Link
+                        href="https://drive.google.com/file/d/1EnwDWaQNkYyFAJbL0f5xA-krUPKYLbdZ/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Watch Demo
+                      </Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+
+                {/* 4. Employee Tracker (Bottom Right) */}
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Employee Tracker</CardTitle>
+                    <CardDescription>
+                      CLI app to manage employees, roles, and departments
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="aspect-video overflow-hidden rounded-lg">
+                      <Image
+                        src="/project2.png?height=225&width=400"
+                        alt="Task Management App"
+                        width={400}
+                        height={225}
+                        className="object-contain w-full h-full"
+                      />
+                    </div>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge>Node.js</Badge>
+                      <Badge>Inquirer.js</Badge>
+                      <Badge>MySQL</Badge>
+                      <Badge>SQL</Badge>
+                      <Badge>Command Line App</Badge>
+                      <Badge>Insomnia</Badge>
+                    </div>
+                  </CardContent>
+                  <CardFooter className="flex justify-between">
+                    <Button variant="outline" asChild>
+                      <Link
+                        href="https://github.com/Shok1to/Employee-Tracker"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </Link>
+                    </Button>
+                    <Button asChild>
+                      <Link
+                        href="https://drive.google.com/file/d/19ZzsULObB6_Xu2BvuyIwIo8zRsbLjMXR/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Watch Demo
                       </Link>
                     </Button>
                   </CardFooter>
