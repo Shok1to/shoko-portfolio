@@ -294,7 +294,7 @@ export default function Home() {
                     </Button>
                     <Button asChild>
                       <Link
-                        href="https://ascendaegis.vercel.app/"
+                        href="https://www.aaegis-ai.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
